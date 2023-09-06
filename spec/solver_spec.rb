@@ -19,5 +19,9 @@ describe Solver do
       it 'should return 120' do
         expect(solver.factorial(5)).to eq 120
       end
+
+      it "should return reverse of the word" do
+        expect(solver.reverse('hello')).to eq 'olleh'
+      end
     end
   end
