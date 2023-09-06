@@ -7,5 +7,9 @@ describe Solver do
       it 'should create instance of Solver' do
         expect(solver).to be_an_instance_of Solver
       end
+
+      it 'should raise an exception' do
+        expect(solver.factorial(-1)).to eq 'Please enter positive numbers'
+      end
     end
   end
