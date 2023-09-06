@@ -9,7 +9,7 @@ describe Solver do
       end
 
       it 'should raise an exception' do
-        expect(solver.factorial(-1)).to eq 'Please enter positive numbers'
+        expect{solver.factorial(-1)}.to raise_error 'Please enter positive numbers'
       end
 
       it 'should return 1' do
