@@ -11,5 +11,9 @@ describe Solver do
       it 'should raise an exception' do
         expect(solver.factorial(-1)).to eq 'Please enter positive numbers'
       end
+
+      it 'should return 1' do
+        expect(solver.factorial(0)).to eq 1
+      end
     end
   end
