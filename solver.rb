@@ -16,6 +16,14 @@ class Solver
   end
 
   def fizzbuzz(input)
-    return nil
+    if(input % 3 == 0 && input % 5 == 0)
+      return 'fizzbuzz'
+    elsif(input % 5 == 0)
+      return 'buzz'
+    elsif(input % 3 == 0)
+      return 'fizz'
+    else
+      return input.to_s
+    end
   end
 end
