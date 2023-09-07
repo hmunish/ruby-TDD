@@ -1,63 +1,48 @@
-# ruby-TDD
-<a name="readme-top"></a>
+# 📗 Table of Contents
 
-<div align="center">
+- [📗 Table of Contents](#-table-of-contents)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+    - [Deployment](#deployment)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
-  <h1><b>ruby-TDD</b></h1>
+# 📖 Ruby TDD <a name="about-project"></a>
 
-</div>
-
-<!-- TABLE OF CONTENTS -->
-
-## 📗 Table of Contents
-
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-    <!-- - [🚀 Live Demo](#live-demo) -->
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  <!-- - [Usage](#usage) -->
-- [👥 Author](#author)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [📝 License](#license)
-
-<!-- PROJECT DESCRIPTION -->
-
-# 📖 ruby-TDD <a name="about-project"></a>
-
-**ruby-TDD** is an app to 
-
+**Ruby TDD** is a basic project that uses Ruby language & Rspec library to demonstrate TDD techniques
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-<details>
-  <summary>Client</summary>
-    <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
-</details>
-
-<!-- Features -->
+- **Ruby**
+- **Rspec**
 
 ### Key Features <a name="key-features"></a>
 
-- **Built using Ruby**
+- **Test Driven Development**
+- **Factorial method**
+- **FizzBuzz method**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO
 ## 🚀 Live Demo <a name="live-demo"></a>
-- [Live Demo Link](https://stock-wise.vercel.app/)
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
-<!-- GETTING STARTED -->
+- Live Demo is not available yet
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -67,41 +52,59 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-```
-    ruby
-    bundler
+Example command:
+
+```sh
+ gem install ruby
 ```
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-```bash
-  git@github.com:hmunish/ruby-TDD.git
+Example commands:
+
+```sh
+  git clone git@github.com:hmunish/ruby-TDD.git
+  cd ruby-TDD
 ```
 
 ### Install
 
 Install this project with:
 
-```bash
-  cd ruby-TDD
+Example command:
+
+```sh
+  cd my-project
   bundle install
 ```
 
-it will install the required gemfile for running the project
+### Usage
 
-<!-- ### Usage -->
+To run the project, execute the following command:
 
+Create objects of classes & run on code editor
 
+### Run tests
 
+To test the project, execute the following command:
 
+Create objects of classes & run on code editor
+
+### Deployment
+
+Deployment is not available yet.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
+## 👥 Authors <a name="authors"></a>
 
-## 👥 Author <a name="author"></a>
+👤 **Munish Halai**
+
+- GitHub: [@githubhandle](https://github.com/hmunish)
+- Twitter: [@twitterhandle](https://twitter.com/hmunish5)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/munish-halai)
 
 👤 **Abd elhakim Zayan**
 
@@ -109,25 +112,14 @@ it will install the required gemfile for running the project
 - Twitter: [@Abd elhakim Zayan](https://twitter.com/zayan_abdo)
 - LinkedIn: [@Abd elhakim Zayan](https://www.linkedin.com/in/abdozayan/)
 
-👤 **Munish Halai**
-
-- GitHub: [@Munish Halai](https://github.com/hmunish)
-- Twitter: [@Munish Halai](https://twitter.com/hmunish5)
-- LinkedIn: [@Munish Halai](https://www.linkedin.com/in/munish-halai/)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **Add UI System**
-- **Add Database to store recent message**
-- **Add Account System**
+- [ ] **Adding more maths methods**
+- [ ] **Adding mocks & stubs for testing**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -137,23 +129,17 @@ Feel free to check the [issues page](https://github.com/hmunish/ruby-TDD/issues)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
-
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project you can share this project to your friend
+If you like this project feel free to contribute so that we can improve the project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank microverse for this project
+I would like to thank Microverse for the chance to become a software developer.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
