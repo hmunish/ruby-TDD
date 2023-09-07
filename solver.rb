@@ -14,4 +14,8 @@ class Solver
   def reverse(word)
     word.reverse
   end
+
+  def fizzbuzz(input)
+    return nil
+  end
 end
